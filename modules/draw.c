@@ -1,8 +1,8 @@
 #include <stdint.h>
 
 //In progress (Working on color palette)
-uint32_t WIDTH = 100;
-uint32_t HEIGHT = 100;
+#define WIDTH = 320;
+#define HEIGHT = 300;
 uint32_t framebuffer[WIDTH*HEIGHT];
 //Color Palette (10 colors for a test)
 uint32_t palette[10]={
@@ -23,7 +23,7 @@ void DrawPixel(x, y, colorcode){
   int pointer = y*WIDTH + x;
 
   //Safety net...
-  if (x >= WIDTH || x < 0 || y < 0 | y >= HEIGHT || colorcode > 10){
+  if (x >= WIDTH || x < 0 || y < 0 || y >= HEIGHT || colorcode > 10){
     return;
   }
   
