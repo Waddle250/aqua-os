@@ -1,8 +1,8 @@
 #include <stdint.h>
 
 //In progress (Working on color palette)
-#define WIDTH = 100;
-#define HEIGHT = 100;
+uint32_t WIDTH = 100;
+uint32_t HEIGHT = 100;
 uint32_t framebuffer[WIDTH*HEIGHT];
 //Color Palette (10 colors for a test)
 uint32_t palette[10]={
