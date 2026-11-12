@@ -14,8 +14,6 @@ mov cl, 2
 mov ch, 0
 
 int 0x13 ; reads disk or smth
-mov ax, 0x0013      ; this better work
-int 0x10            ; If it breaks, it's bcs of this and the line above.
 
 cli
 lgdt [gdt_descriptor]
