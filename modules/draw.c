@@ -23,7 +23,7 @@ void DrawPixel(x, y, colorcode){
   int pointer = y*WIDTH + x;
 
   //Safety net...
-  if (x >= WIDTH || y >= HEIGHT || colorcode > 10){
+  if (x >= WIDTH || x < 0 || y < 0 | y >= HEIGHT || colorcode > 10){
     return;
   }
   
