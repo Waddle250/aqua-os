@@ -1,4 +1,4 @@
-dd gdt_start 0x7c00
+[org 0x7c00]
 
 xor ax, ax
 mov ds, ax ; ds was being naughty so i did uh... this?
