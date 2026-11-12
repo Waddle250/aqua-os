@@ -27,5 +27,5 @@ void DrawPixel(x, y, colorcode){
     return;
   }
   
-  framebuffer[y * WIDTH + x] = palette[colorcode];
+  framebuffer[pointer] = palette[colorcode];
 }
