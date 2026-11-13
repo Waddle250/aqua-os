@@ -51,4 +51,4 @@ AquaOS is a collaborative project between Waddle250(the owner), and EAQ150. This
     </td>
   </tr>
 </table>
-![Static Badge](https://img.shields.io/badge/Development-Active-brightgreen)![Static Badge](https://img.shields.io/badge/Early-Stages-steelblue)
+<img src = "https://img.shields.io/badge/Development-Active-brightgreen"><img src=https://img.shields.io/badge/Stage-Early_Development-steelblue>
