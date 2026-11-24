@@ -16,7 +16,7 @@ AquaOS is a collaborative project between Waddle250(the owner), and EAQ150. This
       Waddle250
     </td>
     <td>
-      Bootloader
+      Bootloader and Print Module
     </td>
   </tr>
   <tr>
